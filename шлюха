@@ -14,7 +14,7 @@ dp: Dispatcher = Dispatcher()
 # Этот хэндлер будет срабатывать на команду "/start"
 @dp.message(Command(commands=["start"]))
 async def process_start_command(message: Message):
-    await message.answer('Привет!\nМеня зовут Эхо-бот!\nНапиши мне что-нибудь')
+    await message.answer('Привет!\nМеня зовут Татьяна! \nЯ бот-шлюха!\nНапиши мне что-нибудь')
 
 
 # Этот хэндлер будет срабатывать на команду "/help"
